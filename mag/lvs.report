@@ -1,0 +1,212 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_648S5X in circuit ic_7804_AND (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_XGAKDL in circuit ic_7804_AND (0)(3 instances)
+
+Subcircuit summary:
+Circuit 1: ic_7804_AND                     |Circuit 2: ic_7804_AND                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+sky130_fd_pr__pfet_01v8 (3)                |sky130_fd_pr__pfet_01v8 (3)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: ic_7804_AND                     |Circuit 2: ic_7804_AND                     
+-------------------------------------------|-------------------------------------------
+VCC                                        |VCC                                        
+GND                                        |GND                                        
+B                                          |B                                          
+A                                          |A                                          
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes ic_7804_AND and ic_7804_AND are equivalent.
+
+Subcircuit summary:
+Circuit 1: AND_IC_TopLevel                 |Circuit 2: AND_IC_TopLevel                 
+-------------------------------------------|-------------------------------------------
+ic_7804_AND (4)                            |ic_7804_AND (4)                            
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 14                         |Number of nets: 14                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: AND_IC_TopLevel                 |Circuit 2: AND_IC_TopLevel                 
+-------------------------------------------|-------------------------------------------
+VCC                                        |VCC                                        
+GND                                        |GND                                        
+4A                                         |4A                                         
+3A                                         |3A                                         
+2A                                         |2A                                         
+1A                                         |1A                                         
+4B                                         |4B                                         
+3B                                         |3B                                         
+2B                                         |2B                                         
+1B                                         |1B                                         
+4Y                                         |4Y                                         
+3Y                                         |3Y                                         
+2Y                                         |2Y                                         
+1Y                                         |1Y                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes AND_IC_TopLevel and AND_IC_TopLevel are equivalent.
+
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: clk
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: ena
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: rst_n
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[0]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[1]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[2]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[3]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[4]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[5]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[6]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[7]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[7]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[6]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[5]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[4]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[3]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[2]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[1]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[0]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: ena
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: clk
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: rst_n
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Removing zero-valued device r from cell tt_um_Isaac_AND_IC_TopLevel (0) makes a better match
+Making another compare attempt.
+
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: clk
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: ena
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: rst_n
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[0]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[1]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[2]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[3]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[4]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[5]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[6]
+Cell tt_um_Isaac_AND_IC_TopLevel (0) disconnected node: uio_in[7]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[7]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[6]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[5]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[4]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[3]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[2]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[1]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: uio_in[0]
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: ena
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: clk
+Cell tt_um_Isaac_AND_IC_TopLevel (1) disconnected node: rst_n
+Subcircuit summary:
+Circuit 1: tt_um_Isaac_AND_IC_TopLevel     |Circuit 2: tt_um_Isaac_AND_IC_TopLevel     
+-------------------------------------------|-------------------------------------------
+AND_IC_TopLevel (1)                        |AND_IC_TopLevel (1)                        
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 14                         |Number of nets: 14                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: tt_um_Isaac_AND_IC_TopLevel     |Circuit 2: tt_um_Isaac_AND_IC_TopLevel     
+-------------------------------------------|-------------------------------------------
+VDPWR                                      |VDPWR                                      
+uio_oe[0]                                  |uio_oe[0]                                  
+ui_in[0]                                   |ui_in[0]                                   
+ui_in[1]                                   |ui_in[1]                                   
+uo_out[0]                                  |uo_out[0]                                  
+ui_in[2]                                   |ui_in[2]                                   
+ui_in[3]                                   |ui_in[3]                                   
+uo_out[1]                                  |uo_out[1]                                  
+ui_in[4]                                   |ui_in[4]                                   
+ui_in[5]                                   |ui_in[5]                                   
+uo_out[2]                                  |uo_out[2]                                  
+ui_in[6]                                   |ui_in[6]                                   
+ui_in[7]                                   |ui_in[7]                                   
+uo_out[3]                                  |uo_out[3]                                  
+clk                                        |clk                                        
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+uio_in[0]                                  |uio_in[0]                                  
+uio_in[1]                                  |uio_in[1]                                  
+uio_in[2]                                  |uio_in[2]                                  
+uio_in[3]                                  |uio_in[3]                                  
+uio_in[4]                                  |uio_in[4]                                  
+uio_in[5]                                  |uio_in[5]                                  
+uio_in[6]                                  |uio_in[6]                                  
+uio_in[7]                                  |uio_in[7]                                  
+uio_oe[1]                                  |uio_oe[1]                                  
+uio_oe[2]                                  |uio_oe[2]                                  
+uio_oe[3]                                  |uio_oe[3]                                  
+uio_oe[4]                                  |uio_oe[4]                                  
+uio_oe[5]                                  |uio_oe[5]                                  
+uio_oe[6]                                  |uio_oe[6]                                  
+uio_oe[7]                                  |uio_oe[7]                                  
+uio_out[0]                                 |uio_out[0]                                 
+uio_out[1]                                 |uio_out[1]                                 
+uio_out[2]                                 |uio_out[2]                                 
+uio_out[3]                                 |uio_out[3]                                 
+uio_out[4]                                 |uio_out[4]                                 
+uio_out[5]                                 |uio_out[5]                                 
+uio_out[6]                                 |uio_out[6]                                 
+uio_out[7]                                 |uio_out[7]                                 
+uo_out[4]                                  |uo_out[4]                                  
+uo_out[5]                                  |uo_out[5]                                  
+uo_out[6]                                  |uo_out[6]                                  
+uo_out[7]                                  |uo_out[7]                                  
+VGND                                       |VGND                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tt_um_Isaac_AND_IC_TopLevel and tt_um_Isaac_AND_IC_TopLevel are equivalent.
+
+Final result: Circuits match uniquely.
+.
