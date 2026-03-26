@@ -1,4 +1,4 @@
-** sch_path: /home/iappiah/tt_project2_practicals/xschem/ic_7408_testbench.sch
+** sch_path: /home/eprempeh/ttsky-zed-Analog/xschem/ic_7408_testbench.sch
 **.subckt ic_7408_testbench 1A GND 1Y 1B 2A 2B 3A 3B 4A 4B 2Y 3Y 4Y VCC
 *.ipin 1A
 *.iopin GND
@@ -36,7 +36,7 @@ Vmeas1 VCC net2 0
 **** begin user architecture code
 
 ** opencircuitdesign pdks install
-.lib /home/iappiah/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.lib /home/eprempeh/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
 
 
@@ -56,8 +56,8 @@ write 7408IC_final_testbench.raw
 **.ends
 
 * expanding   symbol:  AND_IC_TopLevel.sym # of pins=14
-** sym_path: /home/iappiah/tt_project2_practicals/xschem/AND_IC_TopLevel.sym
-** sch_path: /home/iappiah/tt_project2_practicals/xschem/AND_IC_TopLevel.sch
+** sym_path: /home/eprempeh/ttsky-zed-Analog/xschem/AND_IC_TopLevel.sym
+** sch_path: /home/eprempeh/ttsky-zed-Analog/xschem/AND_IC_TopLevel.sch
 .subckt AND_IC_TopLevel 1A 1B 1Y 2A 2B 2Y GND 3A 3B 3Y 4A 4B 4Y VCC
 *.ipin 1A
 *.iopin GND
@@ -81,12 +81,12 @@ x4 4A 4B 4Y VCC GND ic_7804_AND
 
 
 * expanding   symbol:  AND_IC_TopLevel_parax.sym # of pins=14
-** sym_path: /home/iappiah/tt_project2_practicals/xschem/AND_IC_TopLevel.sym
-.include /home/iappiah/tt_project2_practicals/mag/AND_IC_TopLevel.sim.spice
+** sym_path: /home/eprempeh/ttsky-zed-Analog/xschem/AND_IC_TopLevel.sym
+.include /home/eprempeh/ttsky-zed-Analog/mag/AND_IC_TopLevel.sim.spice
 
 * expanding   symbol:  ic_7804_AND.sym # of pins=5
-** sym_path: /home/iappiah/tt_project2_practicals/xschem/ic_7804_AND.sym
-** sch_path: /home/iappiah/tt_project2_practicals/xschem/ic_7804_AND.sch
+** sym_path: /home/eprempeh/ttsky-zed-Analog/xschem/ic_7804_AND.sym
+** sch_path: /home/eprempeh/ttsky-zed-Analog/xschem/ic_7804_AND.sch
 .subckt ic_7804_AND A B Y VCC GND
 *.ipin A
 *.opin Y

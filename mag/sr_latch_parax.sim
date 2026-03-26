@@ -1,0 +1,32 @@
+| units: 500000 tech: sky130A format: MIT
+x r a_9320_n2869# qb vdd s=17400,716 d=17400,716 l=30 w=300 x=10822 y=-2874 sky130_fd_pr__pfet_01v8
+x s vdd a_3320_n2869# vdd s=17400,716 d=17400,716 l=30 w=300 x=3290 y=-2868 sky130_fd_pr__pfet_01v8
+x qb vss q vss s=8700,416 d=8700,416 l=30 w=150 x=4822 y=-4115 sky130_fd_pr__nfet_01v8
+x r vss qb vss s=8700,416 d=8700,416 l=30 w=150 x=10822 y=-4115 sky130_fd_pr__nfet_01v8
+x q vss qb vss s=8700,416 d=8700,416 l=30 w=150 x=9296 y=-4111 sky130_fd_pr__nfet_01v8
+x s vss q vss s=8700,416 d=8700,416 l=30 w=150 x=3296 y=-4111 sky130_fd_pr__nfet_01v8
+x qb a_3320_n2869# q vdd s=17400,716 d=17400,716 l=30 w=300 x=4822 y=-2874 sky130_fd_pr__pfet_01v8
+x q vdd a_9320_n2869# vdd s=17400,716 d=17400,716 l=30 w=300 x=9290 y=-2868 sky130_fd_pr__pfet_01v8
+C r0 2.7
+R r 1598
+= r x2.b
+C q0 4.9
+R q 3874
+= q x1.y
+= q x2.a
+C qb0 12.0
+R qb 3894
+= qb x1.b
+= qb x2.y
+C s0 2.0
+R s 1595
+= s x1.a
+C vdd0 13.6
+R vdd 46565
+= vdd x1.vdd
+= vdd x2.vdd
+R vss 40556
+= vss x1.vss
+= vss x2.vss
+R a_9320_n2869# 2753
+R a_3320_n2869# 2753

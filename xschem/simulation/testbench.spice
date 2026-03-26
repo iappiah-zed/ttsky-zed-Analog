@@ -1,4 +1,4 @@
-** sch_path: /home/eprempeh/tt_09analog_course/xschem/testbench.sch
+** sch_path: /home/eprempeh/ttsky-zed-Analog/xschem/testbench.sch
 **.subckt testbench s r vdd q qb
 *.ipin s
 *.ipin r
@@ -46,8 +46,8 @@ write testbench.raw
 **.ends
 
 * expanding   symbol:  sr_latch.sym # of pins=6
-** sym_path: /home/eprempeh/tt_09analog_course/xschem/sr_latch.sym
-** sch_path: /home/eprempeh/tt_09analog_course/xschem/sr_latch.sch
+** sym_path: /home/eprempeh/ttsky-zed-Analog/xschem/sr_latch.sym
+** sch_path: /home/eprempeh/ttsky-zed-Analog/xschem/sr_latch.sch
 .subckt sr_latch vdd s qb q vss r
 *.ipin s
 *.ipin r
@@ -61,12 +61,12 @@ x2 vdd q qb r vss nor_gate
 
 
 * expanding   symbol:  sr_latch_parax.sym # of pins=6
-** sym_path: /home/eprempeh/tt_09analog_course/xschem/sr_latch.sym
-.include /home/eprempeh/tt_09analog_course/mag/sr_latch.sim.spice
+** sym_path: /home/eprempeh/ttsky-zed-Analog/xschem/sr_latch.sym
+.include /home/eprempeh/ttsky-zed-Analog/mag/sr_latch.sim.spice
 
 * expanding   symbol:  nor_gate.sym # of pins=5
-** sym_path: /home/eprempeh/tt_09analog_course/xschem/nor_gate.sym
-** sch_path: /home/eprempeh/tt_09analog_course/xschem/nor_gate.sch
+** sym_path: /home/eprempeh/ttsky-zed-Analog/xschem/nor_gate.sym
+** sch_path: /home/eprempeh/ttsky-zed-Analog/xschem/nor_gate.sch
 .subckt nor_gate vdd a y b vss
 *.ipin a
 *.ipin b

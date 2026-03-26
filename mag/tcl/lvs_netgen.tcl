@@ -11,4 +11,7 @@ readnet verilog ../src/project.v $source
 # add any spice files of your analog blocks:
 readnet spice ../xschem/simulation/sr_latch.spice $source
 
+# add any spice files of your analog blocks:
+readnet spice ../xschem/simulation/AND_IC_TopLevel.spice $source
+
 lvs "$layout $project" "$source $project" $::env(PDK_ROOT)/sky130A/libs.tech/netgen/sky130A_setup.tcl lvs.report -blackbox

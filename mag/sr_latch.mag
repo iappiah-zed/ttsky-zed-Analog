@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1770730625
+timestamp 1774530888
 << metal1 >>
 rect 874 -1964 2190 -1677
 rect 874 -1989 2760 -1964
@@ -44,11 +44,11 @@ rect 12464 -4458 12563 -3634
 rect 2422 -4557 12563 -4458
 rect 2323 -4563 2422 -4557
 use nor_gate  x1
-timestamp 1770726631
+timestamp 1774530888
 transform 1 0 1604 0 1 -2392
 box 396 -2608 4996 714
 use nor_gate  x2
-timestamp 1770726631
+timestamp 1774530888
 transform 1 0 7604 0 1 -2392
 box 396 -2608 4996 714
 << labels >>
