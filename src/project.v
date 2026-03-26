@@ -35,16 +35,16 @@ module tt_um_zed-Analog(
         .4A (uio_in[0]),
         .4B (uio_in[1]),
         .4Y (uo_out[7])
-    );
+    	);
 
     sr_latch sr_latch_inst(
-        .vdd(VDPWR),
-        .vss(VGND),
-        .s(ui_in[0]),
-        .r(ui_in[1]),
-        .qb(uo_out[1]),
-        .q(uo_out[0])
-    );
+        .vdd (VDPWR),
+        .vss (VGND),
+        .s (ui_in[0]),
+        .r (ui_in[1]),
+        .qb (uo_out[1]),
+        .q (uo_out[0])
+    	);
 
     assign uo_out[4] = VGND;
     assign uo_out[5] = VGND;
